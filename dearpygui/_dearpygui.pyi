@@ -1098,6 +1098,10 @@ def save_init_file(file : str) -> None:
 	"""Save dpg.ini file."""
 	...
 
+def load_settings_file(file : str) -> None:
+	"""Load settings file."""
+	...
+
 def set_axis_limits(axis : Union[int, str], ymin : float, ymax : float) -> None:
 	"""Sets limits on the axis for pan and zoom."""
 	...

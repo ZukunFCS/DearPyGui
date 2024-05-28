@@ -8994,6 +8994,17 @@ def save_init_file(file : str, **kwargs) -> None:
 
 	return internal_dpg.save_init_file(file, **kwargs)
 
+def load_settings_file(file : str, **kwargs) -> None:
+	"""	 Load settings file.
+
+	Args:
+		file (str): 
+	Returns:
+		None
+	"""
+
+	return internal_dpg.load_settings_file(file, **kwargs)
+
 def set_axis_limits(axis : Union[int, str], ymin : float, ymax : float, **kwargs) -> None:
 	"""	 Sets limits on the axis for pan and zoom.
 
