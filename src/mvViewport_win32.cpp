@@ -191,9 +191,9 @@ mvHandleMsg(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) noexcept
 			present(graphics, GContext->viewport->clearColor, GContext->viewport->vsync);
 		}
 		// must be called for the OS to do its thing
-		PAINTSTRUCT tPaint;
-		HDC tDeviceContext = BeginPaint(hWnd, &tPaint);
-		EndPaint(hWnd, &tPaint);
+		// PAINTSTRUCT tPaint;
+		// HDC tDeviceContext = BeginPaint(hWnd, &tPaint);
+		// EndPaint(hWnd, &tPaint);
 		break;
 	}
 
